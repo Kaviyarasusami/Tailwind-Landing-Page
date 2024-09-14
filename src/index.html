@@ -1,0 +1,528 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap" rel="stylesheet">   
+</head>
+<body>
+  <section class="flex overflow-hidden flex-col pb-3 bg-white">
+    <header class="flex flex-wrap gap-5 justify-between px-16 pt-2.5 w-full text-xl bg-white max-md:px-5 max-md:max-w-full">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7695642df54740206cc3cecd28924dd2159b1c30ec36d0acd2587df51539c166?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Company Logo" class="object-contain shrink-0 max-w-full bg-blend-darken aspect-[1.74] w-[191px]" />
+      <nav class="flex flex-wrap gap-10 items-center my-auto max-md:max-w-full">
+        <ul class="flex gap-10 self-stretch my-auto text-black">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f25fa26ecbd65821dfe06c7459238464bd18fb4274a34aedf3d47f702074c2ab?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Navigation Icon" class="object-contain shrink-0 self-stretch my-auto max-w-full rounded-none aspect-[3.94] w-[130px]" />
+        <div class="flex gap-10 self-stretch font-medium whitespace-nowrap">
+          <a href="#login" class="my-auto leading-9 text-neutral-600">Login</a>
+          <a href="#signup" class="px-9 py-5 leading-none text-white rounded-xl shadow-[0px_5px_0px_rgba(0,0,0,0.161)] max-md:px-5">Signup</a>
+        </div>
+      </nav>
+    </header>
+  
+    <section class="flex relative flex-col justify-center py-px w-full min-h-[936px] max-md:max-w-full">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0d5e6a17b80bfd00c11b5f3fbda327dc3055d803fda813c634de571a12a6b8c4?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Background Image" class="object-cover absolute inset-0 size-full" />
+      <div class="flex relative z-10 flex-col justify-center items-center px-16 py-px w-full max-md:px-5 max-md:max-w-full">
+        <div class="z-10 mb-0 w-full max-w-[1626px] max-md:mb-2.5 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <div class="flex flex-col w-[66%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col items-start mt-40 mr-0 w-full max-md:mt-10 max-md:max-w-full">
+                <p class="text-lg leading-none uppercase text-white text-opacity-80 tracking-[3px] max-md:max-w-full">
+                  Successful coaches are visionaries
+                </p>
+                <h1 class="self-stretch mt-7 w-full max-md:max-w-full">
+                  <span class="text-7xl font-bold text-white leading-[90px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[50px]">
+                    <span class="">Good</span>
+                    <span class="text-blue-700">coaching</span>
+                    <span class="">is good teaching & nothing else.</span>
+                  </span>
+                </h1>
+              </div>
+              <div class="flex gap-6 text-base text-white max-md:mt-10">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bec2f5789715d2c78734ffe243ab1dcdf88a4363a6f6d17b59069fae8df21219?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="User Avatar" class="object-contain shrink-0 my-auto w-6 aspect-[0.16]" />
+                <div class="flex flex-col grow shrink-0 items-start basis-0 w-fit">
+                  <p class="leading-none">Shyam</p>
+                  <p class="self-stretch mt-3.5 leading-6">
+                    In a coaching role, you ask the questions and rely more on your
+                    staff, who become the experts, to provide the information.
+                  </p>
+                  <p class="mt-3 text-xs font-bold leading-6 text-sky-500">4.9</p>
+                </div>
+              </div>
+              <div class="flex gap-9 mt-16 text-lg text-white max-md:mt-10">
+                <a href="#courses" class="flex overflow-hidden flex-col tracking-wider leading-loose rounded-xl border-2 border-white border-solid">
+                  <span class="overflow-hidden px-10 py-6 rounded-md bg-teal-500 bg-opacity-0 max-md:px-5">View Courses</span>
+                </a>
+                <a href="#consultation" class="my-auto leading-3 basis-auto">Get Free Consultation</a>
+              </div>
+              <form class="mt-6 max-w-full w-[897px]" action="#" method="get">
+                <div class="flex flex-wrap gap-10 py-2.5 pr-2.5 pl-9 mx-auto mt-14 w-full bg-white rounded-lg max-md:pl-5 max-md:mt-10 max-md:max-w-full">
+                  <label for="search-input" class="sr-only">What do you want to learn today?</label>
+                  <input type="text" id="search-input" placeholder="What do you want to learn today?" class="flex-auto my-auto text-base text-slate-600 w-[228px]" />
+                  <button type="submit" class="flex gap-3.5 items-start px-7 py-4 text-base leading-loose text-center text-white whitespace-nowrap rounded-xl max-md:px-5">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3dee4708652a129ac336e4faa59c928d6ff6e1ec58718ac8f7ddbd6225157c37?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="" class="object-contain shrink-0 self-start w-5 aspect-square" />
+                    <span class="my-auto">Search</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="flex flex-col ml-5 w-[34%] max-md:ml-0 max-md:w-full">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0b8a28e500cc8b014f3a00701e42a3bccb703bd0e61ef3d22b54aa35fe3f2d35?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Featured Image" class="object-contain w-full bg-blend-darken aspect-[0.61] max-md:max-w-full" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="flex relative flex-col justify-center items-center px-16 py-12 w-full min-h-[167px] max-md:px-5 max-md:max-w-full">
+      <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/04071c0d1be9e0317ee3626c300a1a06210c4ecfcf54a9736dbfe2706aee2d37?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Background Pattern" class="object-cover absolute inset-0 size-full" />
+      <div class="flex relative flex-wrap gap-5 justify-between ml-8 w-full max-w-[1475px] max-md:max-w-full">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/00fc0d5029c87c5896fe3624df41400ae5ed495ac8e87f20f2e92c09a428be85?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Partner Logo 1" class="object-contain shrink-0 my-auto max-w-full bg-blend-normal aspect-[3.33] w-[140px]" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a7baa6091bfee07d4e41eab0bfac55eb293b68ee47c3db7e4e0484913b445b75?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Partner Logo 2" class="object-contain shrink-0 self-end mt-6 max-w-full bg-blend-normal aspect-[3.25] w-[120px]" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/00fc0d5029c87c5896fe3624df41400ae5ed495ac8e87f20f2e92c09a428be85?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Partner Logo 3" class="object-contain shrink-0 my-auto max-w-full bg-blend-normal aspect-[3.33] w-[140px]" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a67ed70ae900d820cbff6bf8cb76879e1d226c1b2d12134f078dd8301f3f6b2?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Partner Logo 4" class="object-contain shrink-0 max-w-full bg-blend-normal aspect-[1.76] w-[120px]" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/364b26514b5a08411d81617cc64d931e05bc46c3d951a9fae943b78346f724b5?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Partner Logo 5" class="object-contain shrink-0 my-auto max-w-full bg-blend-normal aspect-[3.25] w-[120px]" />
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a7baa6091bfee07d4e41eab0bfac55eb293b68ee47c3db7e4e0484913b445b75?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Partner Logo 6" class="object-contain shrink-0 self-end mt-6 max-w-full bg-blend-normal aspect-[3.25] w-[120px]" />
+      </div>
+    </section>
+  
+    <section class="flex flex-col justify-center items-center px-20 py-28 w-full max-md:px-5 max-md:py-24 max-md:max-w-full">
+      <div class="flex flex-col mb-0 w-full max-w-[1624px] max-md:mb-2.5 max-md:max-w-full">
+        <div class="flex flex-wrap gap-5 justify-between ml-20 max-w-full w-[1200px]">
+          <div class="flex shrink-0 rounded-full border-solid border-[19px] border-cyan-400 border-opacity-20 h-[103px] w-[103px]"></div>
+          <div class="flex flex-col self-start max-md:max-w-full">
+            <h2 class="self-center text-5xl tracking-tighter leading-loose text-zinc-800 max-md:text-4xl">
+              Featured <span class="text-blue-500">Course</span>
+            </h2>
+            <p class="mt-3 text-2xl leading-none uppercase text-black text-opacity-80 tracking-[3px] max-md:max-w-full">
+              The feature courses are we invented our teaching part
+            </p>
+          </div>
+        </div>
+        <div class="mt-44 max-md:mt-10 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow px-0.5 w-full bg-indigo-50 rounded-none max-md:mt-10 max-md:max-w-full">
+                <div class="flex flex-col items-center pb-3.5 w-full bg-white rounded-3xl max-md:max-w-full">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c9c1b0c86e294f1191e052aafd3a5feb0bb6683d10d8aea03f628c055c976a7?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Motion Graphics Course" class="object-contain self-stretch w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+                  <div class="flex gap-10 mt-7 max-w-full leading-9 w-[441px]">
+                    <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                      <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                        1,957 Students
+                      </p>
+                      <h3 class="mt-5 text-2xl font-semibold tracking-tighter text-slate-700">
+                        Motion Graphics: Create a Nice Typography Animation
+                      </h3>
+                    </div>
+                    <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                      01h 59m
+                    </p>
+                  </div>
+                  <div class="flex gap-5 justify-between items-start mt-12 max-w-full text-2xl font-semibold tracking-tighter leading-loose whitespace-nowrap text-slate-600 w-[434px] max-md:mt-10">
+                    <p class="mt-4">Rs.499</p>
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Course Rating" class="object-contain shrink-0 aspect-square w-[26px]" />
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow mt-16 w-full bg-white rounded-3xl max-md:mt-10 max-md:max-w-full">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f559e662e848fb74ce0a5b635acaec7d26e016f1ba1b37ce5b243894f862a3fe?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="PHP and JS Course" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+                <div class="flex flex-col px-8 py-7 w-full bg-white rounded-none max-md:px-5 max-md:max-w-full">
+                  <div class="flex gap-px leading-9">
+                    <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                      <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                        9,575 Students
+                      </p>
+                      <h3 class="mt-5 text-2xl font-semibold tracking-tighter text-slate-700">
+                        Advance PHP knowledge with JS to make smart web
+                      </h3>
+                    </div>
+                    <p class="self-start text-sm font-medium tracking-tight text-slate-600">
+                      01h 59m
+                    </p>
+                  </div>
+                  <div class="flex gap-5 justify-between mt-14 text-2xl font-semibold tracking-tighter leading-loose whitespace-nowrap text-slate-600 max-md:mt-10 max-md:max-w-full">
+                    <p>Rs.499</p>
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Course Rating" class="object-contain shrink-0 self-start aspect-square w-[26px]" />
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col grow mt-16 w-full font-semibold leading-9 bg-white rounded-3xl text-slate-600 max-md:mt-10 max-md:max-w-full">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/04c2c22b5b0495a3aa7ddf1127d4cfa52fd0d3b91c3114d209fb1e08d10e5eba?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Education Software Course" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+                <div class="flex flex-col px-8 py-7 w-full bg-white rounded-none max-md:px-5 max-md:max-w-full">
+                  <div class="flex gap-5 justify-between text-sm font-medium tracking-tight max-md:max-w-full">
+                    <div class="flex gap-5 justify-between text-sm font-medium tracking-tight max-md:max-w-full">
+    <p>2957 Students</p>
+    <p>02h 49m</p>
+  </div>
+  <h3 class="self-start mt-5 text-2xl tracking-tighter text-slate-700">
+    Education Software and PHP and JS System Script
+  </h3>
+  <div class="flex gap-5 justify-between mt-12 ml-3 text-2xl tracking-tighter leading-loose whitespace-nowrap max-md:mt-10 max-md:mr-1 max-md:max-w-full">
+    <p>Rs.499</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ac10f40bacef47843344db2632c711815f7a8af5daaf08120b4a0f2f95341fa?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Course Rating" class="object-contain shrink-0 self-start aspect-square w-[26px]" />
+  </div>
+  </div>
+  </div>
+  </article>
+  </div>
+  </div>
+  <div class="mt-12 max-md:mt-10 max-md:max-w-full">
+  <div class="flex gap-5 max-md:flex-col">
+  <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col mx-auto mt-20 w-full bg-white rounded-3xl text-slate-600 max-md:mt-10 max-md:max-w-full">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ab504f70701a9f892b8575dd72a8d8f17b351c1a8f0daa7a26e3b17dc3270f65?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Financial Analyst Course" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+  <div class="flex flex-wrap gap-10 px-8 pt-7 pb-4 mt-1.5 bg-white rounded-none max-md:px-5">
+  <div class="flex flex-col grow shrink-0 font-semibold basis-0 w-fit">
+  <div class="flex z-10 flex-col items-start pl-2.5 leading-9">
+  <p class="text-sm font-medium tracking-tight">5,457 Students</p>
+  <h3 class="self-stretch mt-5 text-2xl tracking-tighter text-slate-700">
+  The Complete Financial Analyst Training & Investing
+  </h3>
+  <p class="mt-12 text-2xl tracking-tighter leading-loose max-md:mt-10">Rs.499</p>
+  </div>
+  </div>
+  <div class="flex flex-col self-start text-sm font-medium tracking-tight leading-9">
+  <p>01h 49m</p>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Course Rating" class="object-contain self-end mt-32 aspect-square w-[26px] max-md:mt-10" />
+  </div>
+  </div>
+  </div>
+  </article>
+  <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col px-0.5 w-full font-semibold leading-9 bg-indigo-50 rounded-none text-slate-600 max-md:mt-10 max-md:max-w-full">
+  <div class="flex flex-col pb-5 bg-white rounded-3xl max-md:max-w-full">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ae1884bf71f991b5cf3598ead03e04ff6e7e586dcedfa004984cee86521b77a7?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Instagram Growth Course" class="object-contain w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+  <div class="flex flex-col px-8 mt-7 w-full max-md:px-5 max-md:max-w-full">
+  <div class="flex gap-5 justify-between text-sm font-medium tracking-tight max-md:max-w-full">
+  <p>595 Students</p>
+  <p>01h 49m</p>
+  </div>
+  <h3 class="self-start mt-5 text-2xl tracking-tighter text-slate-700">
+  Marketing 2023: Complete Guide To Instagram Growth
+  </h3>
+  <div class="flex gap-5 justify-between mt-12 text-2xl tracking-tighter leading-loose whitespace-nowrap max-md:mt-10 max-md:max-w-full">
+  <p>Rs.499</p>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bdd048a8f2d231f79d948873af3730a82ed42d2dd60e7992359ebd73d13b0771?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Course Rating" class="object-contain shrink-0 self-start aspect-square w-[26px]" />
+  </div>
+  </div>
+  </div>
+  </div>
+  </article>
+  <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col mx-auto mt-16 w-full leading-9 bg-white rounded-3xl text-slate-600 max-md:mt-10 max-md:max-w-full">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/08371287ffaf44893edf50a83bd1f1313e9b3896008b61051142c464f5c2fcb2?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="3D Modelling Course" class="object-contain z-10 mt-0 w-full rounded-none aspect-[1.63] max-md:max-w-full" />
+  <div class="flex flex-wrap gap-10 px-9 py-8 bg-white rounded-none max-md:px-5">
+  <div class="flex flex-col grow shrink-0 items-start font-semibold basis-0 w-fit">
+  <p class="text-sm font-medium tracking-tight">458 Students</p>
+  <h3 class="self-stretch mt-5 text-2xl tracking-tighter text-slate-700">
+  Learn 3D Modelling and Design for Beginners
+  </h3>
+  <p class="mt-11 ml-3 text-2xl tracking-tighter leading-loose max-md:mt-10 max-md:ml-2.5">Rs.499</p>
+  </div>
+  <div class="flex flex-col self-start text-sm font-medium tracking-tight">
+  <p>03h 00m</p>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ac10f40bacef47843344db2632c711815f7a8af5daaf08120b4a0f2f95341fa?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Course Rating" class="object-contain self-end mt-32 aspect-square w-[26px] max-md:mt-10 max-md:mr-1" />
+  </div>
+  </div>
+  </div>
+  </article>
+  </div>
+  </div>
+  <a href="#explore-courses" class="self-center px-7 py-5 mt-20 max-w-full text-xl text-center text-white rounded-xl w-[200px] max-md:px-5 max-md:mt-10">
+  Explore courses
+  </a>
+  </div>
+  </section>
+  
+  <section class="flex relative flex-col w-full min-h-[779px] max-md:max-w-full">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/50fc504c593edd53b83f3ce77866f55c8645299cbfbe132bb808a2bf8a996028?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Background Image" class="object-cover absolute inset-0 size-full" />
+  <div class="flex relative flex-col justify-center items-start py-32 w-full max-md:py-24 max-md:pr-5 max-md:max-w-full">
+  <div class="flex flex-wrap gap-5 justify-between items-start -mb-7 w-full max-w-[1600px] max-md:mb-2.5 max-md:max-w-full">
+  <div class="flex flex-col justify-center items-start self-start py-5 border-white border-solid border-[3px] rounded-[500px_500px_0px_0px]">
+  <div class="flex flex-col justify-center items-start py-6 border-white border-dashed border-[3px] rounded-[500px_500px_0px_0px]">
+  <div class="flex shrink-0 border-white border-solid border-[3px] h-[225px] rounded-[500px_500px_0px_0px]"></div>
+  </div>
+  </div>
+  <div class="flex flex-col items-center self-end mt-6 text-white max-md:max-w-full">
+  <h2 class="text-5xl leading-none max-md:max-w-full max-md:text-4xl">
+  Why <span class="text-blue-700">learn</span> with our courses?
+  </h2>
+  <p class="mt-6 text-2xl leading-9 text-center w-[728px] max-md:max-w-full">
+  We are providing the best courses and top classes. And extraordinary placement training.
+  </p>
+  <div class="flex flex-wrap gap-5 justify-between self-stretch mt-32 text-center max-md:mt-10 max-md:max-w-full">
+  <div class="flex flex-col items-center self-start">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e471a91429d365dfb16bc423243f4437c03baa4677605b5b80e75736252f2c2c?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Learn Icon" class="object-contain w-20 aspect-square" />
+  <h3 class="mt-10 text-2xl leading-none max-md:mt-10">01. Learn</h3>
+  <p class="self-stretch mt-8 text-lg leading-7">
+  Learn continually. There is always <br /> "one more thing" to learn.
+  </p>
+  </div>
+  <div class="shrink-0 w-0.5 h-[250px]"></div>
+  <div class="flex flex-col self-start">
+  <div class="flex flex-col pr-8 pl-2.5 text-2xl leading-none max-md:pr-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/616ae6967b61b381730fb2c109947a102cbfb0587956a0466e62d4e664c98907?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Graduate Icon" class="object-contain self-center w-20 aspect-square" />
+  <h3 class="self-start mt-10 max-md:mt-10">02. Graduate</h3>
+  </div>
+  <p class="mt-10 text-lg leading-7">
+  Be bold, be courageous, <br /> be your best.
+  </p>
+  </div>
+  <div class="shrink-0 w-0.5 h-[250px]"></div>
+  <div class="flex flex-col items-center">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5c0e0a63d6c8a4eafdfc1135b4ea0baf82329c7b5284e90a0ecaabc5cd6ecb00?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Work Icon" class="object-contain w-20 aspect-square" />
+  <h3 class="mt-10 text-2xl leading-none max-md:mt-10">03. Work</h3>
+  <p class="self-stretch mt-9 text-lg leading-7">
+  Great companies are built in <br /> the office, with hard work put <br /> in by team.
+  </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  
+  <section class="flex flex-col justify-center items-center px-20 py-32 w-full text-center max-md:px-5 max-md:py-24 max-md:max-w-full">
+  <div class="flex flex-col items-center mb-0 w-full max-w-[1618px] max-md:mb-2.5 max-md:max-w-full">
+  <h2 class="text-5xl leading-none text-zinc-800 max-md:text-4xl">
+  Top <span class="text-blue-700">Categories</span>
+  </h2>
+  <p class="mt-4 ml-3 text-2xl leading-none text-slate-600 max-md:max-w-full">
+  100+ unique online course list designs
+  </p>
+  <div class="flex flex-wrap gap-5 self-stretch mt-32 max-md:mt-10 max-md:max-w-full">
+  <article class="flex flex-col flex-1 items-center px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0799bb379a3f706f23f16acb1ac20248366cf8c2db3a92349af77d4c6ed81738?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Digital Marketing Icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+  <h3 class="mt-12 text-2xl leading-9 text-slate-700 max-md:mt-10">Digital <br /> Marketing</h3>
+  <p class="mt-11 text-lg leading-none text-slate-600 max-md:mt-10">25 Courses</p>
+  </article>
+  <article class="flex flex-col flex-1 items-center px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b7b3d16ee65031de6e28201b03a47b002771e2c1b18fbff3583e92c62c3dece5?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Web Development Icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+  <h3 class="mt-12 text-2xl leading-9 text-slate-700 max-md:mt-10">Web <br /> Development</h3>
+  <p class="mt-11 text-lg leading-none text-slate-600 max-md:mt-10">16 Courses</p>
+  </article>
+  <article class="flex flex-col flex-1 items-center px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e01b7d2992791fce76ffcc0eac7609410d854fe60912a02d57108674770cf3f?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Art & Humanities Icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+  <h3 class="mt-12 text-2xl leading-9 text-slate-700 max-md:mt-10">Art & <br /> Humanities</h3>
+  <p class="mt-10 text-lg leading-none text-slate-600">76 Courses</p>
+  </article>
+  <article class="flex flex-col flex-1 items-center px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d57a30fbce5ec0c2b18d203e9174e83fd3f9ec9ac353f1082b24464a543185b7?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Personal Development Icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+  <h3 class="mt-12 text-2xl leading-9 text-slate-700 max-md:mt-10">Personal <br /> Development</h3>
+  <p class="mt-10 text-lg leading-none text-slate-600">22 Courses</p>
+  </article>
+  <article class="flex flex-col flex-1 items-center px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f62c14d9b2a72aba61b2ac66b3f4362e456042120437338de2cde764e96433d9?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="IT and Software Icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+  <h3 class="mt-12 text-2xl leading-9 text-slate-700 max-md:mt-10">IT and <br /> Software</h3>
+  <p class="mt-10 text-lg leading-none text-slate-600">110 Courses</p>
+  </article>
+  <article class="flex flex-col flex-1 items-center px-12 py-11 bg-white rounded-3xl shadow-[0px_4px_4px_rgba(217,236,255,0.5)] max-md:px-5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/81c32f3ea6d8fae19352e2409a8990000ce8ebc55ca7b530f754c36f0b774a1e?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Graphic Design Icon" class="object-contain rounded-lg aspect-square w-[90px]" />
+  <h3 class="mt-12 text-2xl leading-9 text-slate-700 max-md:mt-10">Graphic <br /> Design</h3>
+  <p class="mt-10 text-lg leading-none text-slate-600">85 Courses</p>
+  </article>
+  </div>
+  </div>
+  </section>
+  
+  <section class="flex z-10 flex-wrap gap-10 self-center mt-40 ml-5 w-full max-w-[1398px] max-md:mt-10 max-md:max-w-full ">
+  <div class="flex flex-col grow shrink-0 basis-0 w-fit max-md:max-w-full ">
+  <div class="px-12 py-16 rounded-3xl max-md:px-5 max-md:max-w-ful bg-gradient-to-t bg-purple-800 bg bg-purple-500">
+  <div class="flex gap-5 max-md:flex-col">
+  <div class="flex flex-col w-1/5 max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col grow max-md:mt-10">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fb40922a671cd831bab10e7d2be7d7eea690754b541505993fc09fd29acc53c6?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Student Avatar 1" class="object-contain rounded-full aspect-square w-[60px]" />
+  <div class="flex flex-col pl-8 mt-11 max-md:pl-5 max-md:mt-10">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/21a64c1398d1d6037058669c02ac112c159ba40bf987585bfad001f39f88d35b?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Student Avatar 2" class="object-contain self-end rounded-full aspect-square w-[60px]" />
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4439d59d25bc8a62f5f6b5cde8bee37d551d11e507f57ed7c1d9675d567b577f?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Student Avatar 3" class="object-contain mt-16 rounded-full aspect-square w-[60px] max-md:mt-10" />
+  </div>
+  </div>
+  </div>
+  <div class="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col self-stretch my-auto w-full text-base text-white max-md:mt-10 max-md:max-w-full">
+  <h2 class="text-5xl text-center leading-[55px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+  Subscribe For Get Update <br /> Every New Courses
+  </h2>
+  <p class="self-center mt-5 leading-8 text-center text-white text-opacity-70 max-md:max-w-full">
+  20k+ students daily learn with Eduvi. Subscribe for new courses.
+  </p>
+  <form class="flex flex-wrap mt-10 mr-4 ml-4 max-md:mr-2.5 max-md:max-w-full" action="#" method="post">
+  <label for="email-input" class="sr-only">Enter your email</label>
+  <input type="email" id="email-input" placeholder="enter your email" class="grow px-5 py-4 leading-8 rounded-xl bg-white bg-opacity-20 w-fit" required />
+  <button type="submit" class="px-9 py-5 text-right whitespace-nowrap bg-blue-700 rounded-none max-md:px-5">
+  Subscribe
+  </button>
+  </form>
+  </div>
+  </div>
+  <div class="flex flex-col ml-5 w-1/5 max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col grow items-end max-md:mt-10">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d6c52df25c5d71af6f1d6a1d12e2ba112f4b1711f4770f6a887d422ad212686?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Student Avatar 4" class="object-contain mr-8 rounded-full aspect-square w-[60px] max-md:mr-2.5" />
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9a9575c11c2ad1383ac304df5ecc3c9081c9469fb091db16ac5cf4b93ed2e0f?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Student Avatar 5" class="object-contain self-start mt-16 rounded-full aspect-square w-[60px] max-md:mt-10" />
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/738e272de5129ce730b965cd382aea27dcccaeadd068765a38847e2fd801d84a?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Student Avatar 6" class="object-contain mt-11 rounded-full aspect-square w-[60px] max-md:mt-10" />
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="flex relative flex-col justify-center items-center px-20 py-64 mt-72 mr-10 ml-11 max-w-full min-h-[718px] rounded-[68px] w-[1200px] max-md:px-5 max-md:py-24 max-md:mt-10 max-md:mr-2.5">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/324292d055ed07eee2c73a4d2762015ffa7d2daea5980a1f7db221b11993db4e?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Background Pattern" class="object-cover absolute inset-0 size-full" />
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0f44df018d9b56e7efbd58beb4420c861998f522bf1bc7d80bd204673186bbcd?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Decorative Element" class="object-contain -mb-14 ml-8 max-w-full aspect-[1.05] w-[218px] max-md:mb-2.5" />
+  </div>
+  </div>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82840b57fe2e795bb4885bf6432365d0f14156e204a10ae49b0fdbced66cb9ae?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Decorative Icon" class="object-contain shrink-0 my-auto w-20 rounded-2xl aspect-[0.99]" />
+  </section>
+  
+  <section class="flex flex-col items-end px-20 py-12 max-md:px-5 max-md:max-w-full bg-gradient-to-t bg-slate-50 bg bg-purple-200">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c514d182abd36a42ac9de954b3aab13bbebfcbe91215f0ebe468d6a828bcb7ac?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Decorative Element" class="object-contain mr-56 max-w-full aspect-[1.25] w-[324px] max-md:mr-2.5" />
+  <div class="flex flex-col mt-44 w-full max-w-[1721px] max-md:mt-10 max-md:max-w-full">
+  <div class="flex flex-wrap gap-5 justify-between max-w-full text-center w-[979px]">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c3d501a0eadf00cc083971050b85c7ef0af9b2064413c5196fb26d85e274abac?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Decorative Circle" class="object-contain shrink-0 self-start mt-1.5 max-w-full rounded-full aspect-[1.07] w-[103px]" />
+  <div class="flex flex-col">
+  <h2 class="self-center text-5xl leading-none text-blue-700 max-md:text-4xl">
+  Testimonials
+  </h2>
+  <p class="mt-14 text-2xl leading-relaxed text-slate-600 max-md:mt-10">
+  What our student say about us
+  </p>
+  </div>
+  </div>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/da3d21ecc92d68a16681a7e754269997ae391a47054917f39a46cdfa1d6b8c56?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Quotation Mark" class="object-contain z-10 self-center mt-36 aspect-[0.84] rounded-[360px] w-[59px] max-md:mt-10" />
+  <div class="ml-11 w-full max-w-[1562px] max-md:max-w-full">
+  <div class="flex gap-5 max-md:flex-col">
+  <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+  <div class="flex z-10 flex-col grow mt-2.5 mr-0 text-base leading-8 text-slate-500 max-md:max-w-full">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/da3d21ecc92d68a16681a7e754269997ae391a47054917f39a46cdfa1d6b8c56?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Quotation Mark" class="object-contain z-10 self-center ml-5 aspect-[0.84] rounded-[360px] w-[59px]" />
+  <div class="flex flex-col px-14 pt-10 pb-6 bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:px-5 max-md:max-w-full">
+  <p class="max-md:max-w-full">
+  Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.
+  </p>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/849b19843dfd33912eb2b66fe733c37fb758f7100bae5350c9f50476fcbdd475?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Star Rating" class="object-contain mt-11 max-w-full aspect-[7.25] w-[138px] max-md:mt-10" />
+  </div>
+  </div>
+  </article>
+  <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col px-16 pt-14 pb-2 mr-0 text-base leading-8 bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] text-slate-500 max-md:px-5 max-md:max-w-full">
+  <p class="max-md:max-w-full">
+  Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.
+  </p>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/849b19843dfd33912eb2b66fe733c37fb758f7100bae5350c9f50476fcbdd475?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Star Rating" class="object-contain mt-9 max-w-full aspect-[7.25] w-[138px] max-md:ml-2.5" />
+  </div>
+  </article>
+  <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+  <div class="flex flex-col grow mt-3.5 text-base leading-8 text-slate-500 max-md:max-w-full">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/da3d21ecc92d68a16681a7e754269997ae391a47054917f39a46cdfa1d6b8c56?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Quotation Mark" class="object-contain z-10 self-center aspect-[0.84] rounded-[360px] w-[59px]" />
+  <div class="flex flex-col px-12 pt-16 pb-3 bg-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:px-5 max-md:max-w-full">
+  <p class="max-md:max-w-full">
+  Such an amazing trainer and easily understand the entire syllabus, and the guidance will be super and good to the way of explaining.
+  </p>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/849b19843dfd33912eb2b66fe733c37fb758f7100bae5350c9f50476fcbdd475?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Star Rating" class="object-contain mt-8 ml-3 max-w-full aspect-[7.25] w-[138px] max-md:ml-2.5" />
+  </div>
+  </div>
+  </article>
+  </div>
+  </div>
+  <div class="flex self-end mt-40 max-md:mt-10">
+  <button aria-label="Previous testimonial" class="focus:outline-none">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ccd836f50166a0b126bc2be31819371ef4c005b0dd33c5e58f1aaba9054425e?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Left Arrow" class="object-contain shrink-0 aspect-[1.19] w-[50px]" />
+  </button>
+  <button aria-label="Next testimonial" class="focus:outline-none">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/965a13f7aedf2ad8701feba89b016f06d9ac64843c3e5c7b282d0b53d427e9b3?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Right Arrow" class="object-contain shrink-0 aspect-[1.19] w-[50px]" />
+  </button>
+  </div>
+  </div>
+  </section>
+  
+  <footer class="flex flex-col pt-14 w-full shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:max-w-full bg-gradient-to-l bg-purple-400 bg-gradient-to-r bg-purple-700">
+  <div class="flex flex-wrap gap-5 justify-between ml-10 w-full max-w-[1746px] max-md:max-w-full">
+  <div class="flex flex-col items-start self-start mt-3">
+  <h3 class="ml-12 text-2xl text-slate-900 max-md:ml-2.5">Connect</h3>
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb82621adea2927fd26043980e15bb103d1396aef6f4f0a2fc5f83d5d3788e5d?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="Company Logo" class="object-contain z-10 mt-12 max-w-full aspect-[2.07] w-[247px] max-md:mt-10" />
+  <address class="self-stretch -mt-1.5 ml-3.5 text-base text-black max-md:ml-2.5">
+  Sri Jagannath Nivas,8-1-164/345/A/1, <br /> Pragati Colony, Mailardevpally, Nawab <br /> Saheb Kunta, Hyd, 500005
+  </address>
+  </div>
+  <nav class="flex flex-wrap gap-10 items-start max-md:max-w-full">
+  <div class="flex flex-col items-start text-xl text-black">
+  <h3 class="text-3xl text-slate-900">Classes</h3>
+  <ul class="mt-9">
+  <li><a href="#classroom">Classroom courses</a></li>
+  <li class="mt-8"><a href="#virtual">Virtual classroom courses</a></li>
+  <li class="mt-6"><a href="#elearning">E-learning courses</a></li>
+  <li class="mt-5"><a href="#video">Video Courses</a></li>
+  <li class="mt-6"><a href="#offline">Offline Courses</a></li>
+  </ul>
+  </div>
+  <div class="flex flex-col whitespace-nowrap">
+  <h3 class="text-3xl text-slate-900">Community</h3>
+  <ul class="flex flex-col items-start pr-6 pl-1.5 mt-5 text-xl text-black max-md:pr-5">
+  <li><a href="#learners">Learners</a></li>
+  <li class="mt-8"><a href="#partners">Partners</a></li>
+  <li class="mt-6"><a href="#developers">Developers</a></li>
+  <li class="mt-5"><a href="#transactions">Transactions</a></li>
+  <li class="mt-7"><a href="#blog">Blog</a></li>
+  </ul>
+  </div>
+  <div class="flex flex-col items-start mt-1 text-xl text-black">
+  <h3 class="text-3xl text-slate-900">Quick links</h3>
+  <ul class="mt-6">
+  <li><a href="#home">Home</a></li>
+  <li class="mt-7"><a href="#professional">Professional Education</a></li>
+  <li class="mt-6"><a href="#courses">Courses</a></li>
+  <li class="mt-6"><a href="#admissions">Admissions</a></li>
+  <li class="mt-7"><a href="#testimonial">Testimonial</a></li>
+  <li class="mt-6"><a href="#programs">Programs</a></li>
+  </ul>
+  </div>
+  <div class="flex flex-col items-start self-stretch text-xl text-gray-800 whitespace-nowrap">
+  <h3 class="text-3xl text-slate-900">More</h3>
+  <ul class="mt-9">
+  <li><a href="#press">Press</a></li>
+  <li class="mt-8"><a href="#investors">Investors</a></li>
+  <li class="mt-8"><a href="#terms">Terms</a></li>
+  <li class="mt-8"><a href="#privacy">Privacy</a></li>
+  <li class="mt-7"><a href="#help">Help</a></li>
+  <li class="mt-7"><a href="#contact">Contact</a></li>
+  </ul>
+  </div>
+  </nav>
+  </div>
+  <div class="flex z-10 flex-col items-center px-20 pt-8 pb-3.5 mt-12 mb-0 w-full max-md:px-5 max-md:mt-10 max-md:mb-2.5 max-md:max-w-full">
+  <div class="flex flex-col max-w-full w-[459px]">
+  <div class="flex gap-8 items-start">
+  <a href="#facebook" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="Facebook">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a51ed9bc1f1748663a0a83f081032c638d9532cb0603bc5b49484d5841e62b6?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="" class="object-contain w-10 aspect-[1.08]" />
+  </a>
+  <a href="#twitter" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="Twitter">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e96bec152f6ecd3f54d04c2f71cc76ae409de67589a582c39fd6bd875111703?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="" class="object-contain w-10 aspect-[1.08]" />
+  </a>
+  <a href="#instagram" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="Instagram">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/37963df65ac5fd87478fff22241aa31a65fa7e31e99d79ccde7c7e83c6b7bfd6?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="" class="object-contain w-10 aspect-[1.08]" />
+  </a>
+  <a href="#linkedin" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="LinkedIn">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c49fd56e4dbf9367656727a6e4bf02b438f58dd92aadd09d77502b781013a0d?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="" class="object-contain w-10 aspect-[1.08]" />
+  </a>
+  <a href="#youtube" class="flex flex-col flex-1 justify-center p-3.5 bg-white rounded-full border border-blue-700 border-solid" aria-label="YouTube">
+  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a841d6113f14d25eee1509f5134fe2ec7f39f6ac91090764c4ff133bf0d61bde?placeholderIfAbsent=true&apiKey=b92d8daa87de47a5be16026c8c9cdcda" alt="" class="object-contain aspect-[1.11] w-[41px]" />
+  </a>
+  </div>
+  <p class="self-center mt-3.5 text-base text-white">
+  Copyright @ 2023 askmeidentity. All Rights Reserved
+  </p>
+  </div>
+  </div>
+  </footer>
+  </section>
+</body>
+</html>
